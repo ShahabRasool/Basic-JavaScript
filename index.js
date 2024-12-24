@@ -36,3 +36,5 @@ console.log(true + true);
 // var y = 3;
 // console.log(x%y);
 // Comparsion operator
+
+// console.log(5==="5");
