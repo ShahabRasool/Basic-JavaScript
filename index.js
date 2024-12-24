@@ -18,17 +18,21 @@ console.log(true + true);
 // The combination of operand and operator is called Expression
 
 // assignment
-let a ="shahab";
-// arthematic operator
-var x= 8;
-var y = 5;
-console.log(x+y);
-var x= 8;
-var y = 5;
-console.log(x-y);
-var x= 8;
-var y = 5;
-console.log(x*y);
-var x= 8;
-var y = 5;
-console.log(x/y);
+// let a ="shahab";
+// // arthematic operator
+// var x= 8;
+// var y = 5;
+// console.log(x+y);
+// var x= 8;
+// var y = 5;
+// console.log(x-y);
+// var x= 8;
+// var y = 5;
+// console.log(x*y);
+// var x= 100;
+// var y = 90;
+// console.log(x/y);
+// var x= 20;
+// var y = 3;
+// console.log(x%y);
+// Comparsion operator
