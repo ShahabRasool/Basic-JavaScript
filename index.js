@@ -38,3 +38,7 @@ console.log(true + true);
 // Comparsion operator
 
 // console.log(5==="5");
+// Ternary operator
+let age = 15;
+let message = age >= 18 ? "Yes" : "No";
+console.log(message);
