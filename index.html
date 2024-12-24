@@ -3,53 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Java Script</title>
+    <title>JavaScript Tutorial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div>
-     <p>if we add a string to number what will the data type of it
-data type will be string
-if we have not a vaild number or string it will give <strong>NaN</strong> which mean not a number
-console.log( "shahab" - "rasool");
-if we have two true value it will give 2
-by defult valur of True is 1</p>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <div class="max-w-4xl mx-auto p-6">
+        <!-- Header -->
+        <header class="mb-8 text-center">
+            <h1 class="text-4xl font-bold text-blue-600">JavaScript Tutorial</h1>
+        </header>
 
-<div>
-<strong>Expression</strong>
-expression is a value, value can be a number, string, boolean, null, undefined,
-object, array, function
-expression can be a single value or a combination of values
-The combination of operand and operator is called Expression
-    <ul>
-        <h1>Operator</h1>
-        <li>
-          <h3>Assignment</h3>  
-            <p>The equal = assign we called the assignment operator</p>
-        </li>
-        <li>
-            <h3>Arthematic Operator</h3>
-            <p>It perform basic Mathematical operation on variables or values. They include addition, subtruction etc</p>
-        </li>
-        <li>
-            <h3>Modulus Operator</h3>
-            <p>The remainder operator we called it Modulus</p>
-        </li>
-        <li>
-            <h3>comparison operators</h3>
-            <p> comparison operators are used to compare two values and return a Boolean value (true or false) based on the comparison result. </p>
-        </li>
-        <li>
-            <h3>Strict Equality{===}</h3>
-            <p> It checks both the value and type of the operands.If the types are different, it immediately returns false </p>
-        </li>
-        <li>
-            <h3>ternary operator </h3>
-            <p> Is a shorthand for an if-else statement. It allows you to perform a simple conditional operation in a concise way.</p>
-        </li>
-    </ul>
-</div>
+        <!-- Introduction Section -->
+        <section class="mb-6 bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold mb-4">String and Number Interaction</h2>
+            <p class="text-gray-700 leading-relaxed">
+                If we add a string to a number, the data type will be a <strong class="text-blue-500">string</strong>.
+                If we try to subtract or perform invalid operations between non-numeric strings, it will give <strong class="text-red-500">NaN</strong>, which stands for "Not a Number".
+            </p>
+            <div class="bg-gray-100 p-4 rounded mt-4">
+                <code class="text-sm text-gray-800">console.log("shahab" - "rasool");</code>
+                <p class="mt-2 text-gray-600">If we have two true values, the result will be <strong>2</strong>, because the default value of <strong>true</strong> is 1.</p>
+            </div>
+        </section>
 
+        <!-- Expression Section -->
+        <section class="mb-6 bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold mb-4">Expressions</h2>
+            <p class="text-gray-700 leading-relaxed">
+                An <strong>expression</strong> is a value that can be a number, string, boolean, null, undefined, object, array, or function.
+                Expressions can be a single value or a combination of values. A combination of operands and operators is called an expression.
+            </p>
+        </section>
+
+        <!-- Operators Section -->
+        <section class="bg-white shadow-md rounded-lg p-6">
+            <h2 class="text-2xl font-semibold mb-4">Operators</h2>
+            <ul class="space-y-6">
+                <!-- Assignment Operator -->
+                <li>
+                    <h3 class="text-xl font-bold text-green-600">Assignment</h3>
+                    <p class="text-gray-700">The equal sign (<code>=</code>) is called the assignment operator.</p>
+                </li>
+
+                <!-- Arithmetic Operator -->
+                <li>
+                    <h3 class="text-xl font-bold text-green-600">Arithmetic Operators</h3>
+                    <p class="text-gray-700">These perform basic mathematical operations on variables or values, such as addition, subtraction, etc.</p>
+                </li>
+
+                <!-- Modulus Operator -->
+                <li>
+                    <h3 class="text-xl font-bold text-green-600">Modulus Operator</h3>
+                    <p class="text-gray-700">The remainder operator (<code>%</code>) is called the modulus operator.</p>
+                </li>
+
+                <!-- Comparison Operators -->
+                <li>
+                    <h3 class="text-xl font-bold text-green-600">Comparison Operators</h3>
+                    <p class="text-gray-700">Comparison operators are used to compare two values and return a Boolean result (true or false).</p>
+                </li>
+
+                <!-- Strict Equality -->
+                <li>
+                    <h3 class="text-xl font-bold text-green-600">Strict Equality (<code>===</code>)</h3>
+                    <p class="text-gray-700">It checks both the value and the type of the operands. If the types are different, it immediately returns <strong>false</strong>.</p>
+                </li>
+
+                <!-- Ternary Operator -->
+                <li>
+                    <h3 class="text-xl font-bold text-green-600">Ternary Operator</h3>
+                    <p class="text-gray-700">A shorthand for an <code>if-else</code> statement, allowing you to perform simple conditional operations concisely.</p>
+                </li>
+            </ul>
+        </section>
     </div>
+
     <script src="./index.js"></script>
 </body>
 </html>
