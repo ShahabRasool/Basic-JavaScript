@@ -30,3 +30,10 @@ if(age >=18){
 }else{
     console.log("You are not eligibale to vote ")
 }
+// write a program to check a Number is even or old
+var a =9;
+if(a % 2 ==0){
+    console.log("number is even");
+}else{
+    console.log("number is odd");
+}
