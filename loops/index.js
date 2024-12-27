@@ -37,3 +37,11 @@ if(a % 2 ==0){
 }else{
     console.log("number is odd");
 }
+// write a program to check a number is positive or negative
+var b = -9;
+if(b > 0){
+    console.log("number is positive");
+    }else{
+        console.log("number is negative");
+        }
+        
